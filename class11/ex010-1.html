@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nascionalidade</title>
+</head>
+<body>
+    <h1>Verificação de Nascionalidade</h1>
+    Digite seu pais de origem:  <input type='text' name='pais' id='pais'>
+    <input type='button' value='verifiacar' onclick= 'nascionalidade ()'>
+    <div id = nas>
+
+    </div>
+    <script>
+        function nascionalidade() {
+            var pai = document.querySelector('input#pais');
+            var nasc = document.querySelector('div#nas');
+            var paiss= pai.value;
+            nasc.innerHTML = `<p>Morando em ${paiss}</p>`
+            if (paiss == 'Brasil') {
+                nasc.innerHTML += '<p>Você é brasileiro</p>';
+            }else{
+                nasc.innerHTML += '<p>Vocé é Estrangeiro</p>';
+            }
+        }
+    </script>
+</body>
+</html>
