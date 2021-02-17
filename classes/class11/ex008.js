@@ -1,12 +1,12 @@
-var vel = 10.5;
+var speed = 10.5;
 
-console.log(`A velocidade do seu carro é ${vel}km/h`);
+console.log(`Your car's speed is ${speed}km/h`);
 
-if(vel > 60){ //condição simples!
+if(speed > 60){
 
-    console.log(`Você ultrapassou a velocidade permitida, MULTADO!`);
+    console.log(`You have exceeded the permitted speed FINE!`);
 
 }
 
-console.log(`Dirija sempre com o cinto de segurnaça`);
+console.log(`Always drive with the seat belt`);
 

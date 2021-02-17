@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DOM events</title>
+    <title>DOM Events</title>
     <style>
         div#area{
             font: normal 20pt Arial;
@@ -18,26 +18,26 @@
 </head>
 <body>
    <div id ="area">
-       Interaja...
+       Interact...
    </div> 
    <script>
         var a = window.document.getElementById('area');
         
-        a.addEventListener('click', clicou);
-        a.addEventListener('mouseenter', entrou);
-        a.addEventListener('mouseout', saiu);
+        a.addEventListener('click', clicked);
+        a.addEventListener('mouseenter', entered);
+        a.addEventListener('mouseout', left);
 
-        function clicou () {
-           a.innerText = 'Clicou!';
+        function clicked () {
+           a.innerText = 'Clicked!';
            a.style.backgroundColor = 'green';
        }
 
-        function entrou () {
-           a.innerText = 'Entrou!';
+        function entered () {
+           a.innerText = 'Entered!';
        }
 
-        function saiu () {
-           a.innerText = 'Saiu!'; 
+        function left () {
+           a.innerText = 'Left!'; 
            a.style.backgroundColor = 'blue';
        }
    </script>

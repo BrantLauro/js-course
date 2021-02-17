@@ -1,13 +1,13 @@
-var pais = 'Brasil';
+var country = 'Brazil';
 
-console.log(`Vivendo em ${pais}`)
-if (pais == 'Brasil') {
+console.log(`Living in ${country}`)
+if (country == 'Brazil') {
 
-    console.log('Você é brasileiro!');
+    console.log('You are brazilian!');
 
 }else{
 
-    console.log('Você é estrngeiro!');
+    console.log('You are foreigner!');
 
 }
 
