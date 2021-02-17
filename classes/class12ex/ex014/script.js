@@ -1,26 +1,26 @@
-function carregar() {
+function load() {
 
     var msg = window.document.getElementById("msg");
-    var img = window.document.getElementById("imagem");
-    var data = new Date();
-    var hora = data.getHours();
-    var minutos = data.getMinutes();
+    var img = window.document.getElementById("image");
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
 
-    msg.innerHTML = `Agora são ${hora}:${minutos}.`;
+    msg.innerHTML = `It is ${hours}:${minutes}.`;
 
-    if (hora >=0 && hora <= 12) {
+    if (hours >=0 && hours <= 12) {
 
-        img.src = "bomdia.png";
+        img.src = "morning.png";
         document.body.style.backgroundColor = '#e2cd9f';
 
-    } else if (hora <= 18) {
+    } else if (hours <= 18) {
 
-        img.src = "boatarde.png";
+        img.src = "afternoon.png";
         document.body.style.backgroundColor = '#b9846f';
 
     } else {
 
-        img.src = "boanoite.png"
+        img.src = "night.png"
         document.body.style.backgroundColor = '#515154';
 
     }
