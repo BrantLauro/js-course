@@ -1,11 +1,11 @@
-for(var numPedaços = 8; numPedaços >= 0; numPedaços--){
-    if(numPedaços == 8){
-        console.log(`A pizza tem ${numPedaços} pedaços!`);
-    }else if (numPedaços < 8 & numPedaços > 1){
-        console.log(`Você comeu um pedaço! Agora só restam ${numPedaços} pedaços.`);
-    }else if(numPedaços == 1){
-        console.log('Você comeu um pedaço! Agora só resta 1 pedaço.');
+for(var numSlices = 8; numSlices >= 0; numSlices--){
+    if(numSlices == 8){
+        console.log(`The pizza has ${numSlices} slices!`);
+    }else if (numSlices < 8 & numSlices > 1){
+        console.log(`You ate a slice! Now only ${numSlices} slices left.`);
+    }else if(numSlices == 1){
+        console.log('You ate a slice! Now only 1 slice left.');
     }else{
-        console.log('Você comeu o pedaço! Não restam mais pedaços, a pizza acabou!');
+        console.log('You ate a slice! No more slices left the pizza is over!');
     }
 }
