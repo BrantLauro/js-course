@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Age checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Age checker</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of born
+                <input type="number" name="txtyear" id="txtyear" min= "0">
+            </p>
+            <p>Genre
+                <input type="radio" name="radgen" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="radgen" id="female">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Verify" onclick= "verify()">
+            </p>
+        </div>
+        <div id = "ans">
+            Fill in the data above to see the result!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; LauroBrant</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
