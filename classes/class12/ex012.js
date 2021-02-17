@@ -1,11 +1,11 @@
-var data= new Date();
-var hr = data.getHours();
+var date= new Date();
+var hr = date.getHours();
 if (hr >= 6 && hr < 12) {
-    console.log(`São ${hr} horas. Bom Dia!`);
+    console.log(`It is ${hr} o'clock. Good Morning!`);
 } else if (hr >= 12 && hr < 18) {
-    console.log(`São ${hr} horas. Boa Tarde!`);
+    console.log(`It is ${hr} o'clock. Good Afternoon!`);
 }else if (hr >= 18 && hr < 24){
-    console.log(`São ${hr} horas. Boa Noite!`);
+    console.log(`It is ${hr} o'clock. Good Evening!`);
 }else{
-    console.log(`São ${hr} horas. Boa Madrugada!`);
+    console.log(`It is ${hr} o'clock. Good Night!`);
 }

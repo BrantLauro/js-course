@@ -1,36 +1,36 @@
-var data = new Date();
-var dia = data.getDay();
-switch (dia) {
+var date = new Date();
+var day = date.getDay();
+switch (day) {
     case 0: 
-        console.log('Domingo');
+        console.log('Sunday');
         break
 
     case 1: 
-        console.log('Segunda');
+        console.log('Monday');
         break
 
     case 2: 
-        console.log('Terça');
+        console.log('Tuesday');
         break
 
     case 3:
-        console.log('Quarta');
+        console.log('Wednesday');
         break
 
     case 4:
-        console.log('Quinta');
+        console.log('Thursday');
         break
 
     case 5 :
-        console.log('Sexta');
+        console.log('Friday');
         break
 
     case 6: 
-        console.log('Sábado');
+        console.log('Saturday');
         break
 
     default: 
-        console.log('[ERROR] dia inválido!');
+        console.log('[ERROR] Invalid Day!');
         break
 
 }
