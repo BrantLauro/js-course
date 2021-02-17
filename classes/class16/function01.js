@@ -1,13 +1,8 @@
 function pair_odd(n){
-    
     if(n % 2 == 0){
-
         return "pair";
-
     }else{
-
         return "odd";
-
     }
 }
 
