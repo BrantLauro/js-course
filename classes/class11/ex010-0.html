@@ -7,23 +7,22 @@
     <title>DENTRAN</title>
 </head>
 <body>
-    <h1>Sistema de Multas</h1>
-    Velocidade do Carro: <input type='number' name='txtvel' id='txtvel'> Km/h
-    <input type='button' value='verificar' onclick='calcular()'>
-    <div id='res'>
+    <h1>Fines System</h1>
+    Speed of the car: <input type='number' name='txtspeed' id='txtspeed'> Km/h
+    <input type='button' value='verify' onclick='calculate()'>
+    <div id='ans'>
 
     </div>
     <script>
-        function calcular() {
-            var txtv = window.document.getElementById('txtvel');
-            var res = window.document.getElementById('res');
-            var vel = Number(txtv.value);
-            res.innerHTML =`<p>Sua velocidade atual é de <strong>${vel}km/h</strong></p>`;
-            if (vel > 60) {
-                res.innerHTML += '<p>Você foi <strong>multado!</strong></p>';
-
+        function calculate() {
+            var txtspeed = window.document.getElementById('txtspeed');
+            var ans = window.document.getElementById('ans');
+            var speed = Number(txtspeed.value);
+            ans.innerHTML =`<p>Your current speed is <strong>${speed}km/h</strong></p>`;
+            if (speed > 60) {
+                ans.innerHTML += '<p>You were <strong>fined!</strong></p>';
             }
-            res.innerHTML += 'Dirija sempre com cinto de segurança!';
+            ans.innerHTML += 'Always drive with a seat belt!';
 
         }
     </script>

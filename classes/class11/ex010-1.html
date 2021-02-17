@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nascionalidade</title>
+    <title>Nationality</title>
 </head>
 <body>
-    <h1>Verificação de Nascionalidade</h1>
-    Digite seu pais de origem:  <input type='text' name='pais' id='pais'>
-    <input type='button' value='verifiacar' onclick= 'nascionalidade ()'>
-    <div id = nas>
+    <h1>Nationality Check</h1>
+    Enter your country of origin:  <input type='text' name='country' id='country'>
+    <input type='button' value='verify' onclick= 'nationality ()'>
+    <div id = nat>
 
     </div>
     <script>
-        function nascionalidade() {
-            var pai = document.querySelector('input#pais');
-            var nasc = document.querySelector('div#nas');
-            var paiss= pai.value;
-            nasc.innerHTML = `<p>Morando em ${paiss}</p>`
-            if (paiss == 'Brasil') {
-                nasc.innerHTML += '<p>Você é brasileiro</p>';
+        function nationality() {
+            var country = document.querySelector('input#country');
+            var nat = document.querySelector('div#nat');
+            var ocountry= country.value;
+            nat.innerHTML = `<p>Living in ${ocountry}</p>`
+            if (ocountry == 'Brazil') {
+                nat.innerHTML += '<p>You are brazilian</p>';
             }else{
-                nasc.innerHTML += '<p>Vocé é Estrangeiro</p>';
+                nat.innerHTML += '<p>You are foreigner</p>';
             }
         }
     </script>
