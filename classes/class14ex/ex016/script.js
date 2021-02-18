@@ -1,47 +1,28 @@
-function botao(){
-
-    var nInicial = document.getElementById('inicial');
-    var nFinal = document.getElementById('final');
-    var passo = document.getElementById('passo');
-
-    if(nInicial.value.length == 0 || nFinal.value.length  == 0 ||  passo.value.length == 0){
-
-         res.innerHTML = 'Impossível contar. Faltam dados!';
-
+function button(){
+    var start = document.getElementById('start');
+    var end = document.getElementById('end');
+    var step = document.getElementById('step');
+    if(start.value.length == 0 || end.value.length  == 0 ||  step.value.length == 0){
+         ans.innerHTML = 'Impossible to count, data is missing!';
     }else{
-
-        res.innerHTML = 'Contando: <br> '
-        var i = Number(nInicial.value);
-        var f = Number(nFinal.value);
-        var p = Number(passo.value);
-
-        if( p <= 0){
-
-            p = 1;
-            window.alert('Passo Invalido!Considerando passo 1');
-
+        ans.innerHTML = 'Counting: <br> '
+        var st = Number(start.value);
+        var e = Number(end.value);
+        var s = Number(step.value);
+        if( s <= 0){
+            s = 1;
+            window.alert('Invalid step! Considering step 1');
         }
-
-        if ( i < f) {
-
-            for(var c = i; c <= f; c += p){
-
-                res.innerHTML += `${c} \u{1F449}`; 
-
+        if ( st < e) {
+            for(var c = st; c <= e; c += s){
+                ans.innerHTML += `${c} \u{1F449}`; 
             } 
-
         }else{
-
-            for(var c = i; c >= f; c -= p){
-
-                res.innerHTML += `${c} \u{1F449}`; 
-
+            for(var c = st; c >= e; c -= s){
+                ans.innerHTML += `${c} \u{1F449}`; 
             } 
-            
         }
-
-        res.innerHTML +=`\u{1F3C1}`;
-
+        ans.innerHTML +=`\u{1F3C1}`;
     }
 }
 

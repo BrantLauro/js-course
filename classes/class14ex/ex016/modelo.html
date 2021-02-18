@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Super Contador</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Super Accountant</title>
 </head>
 <body>
     <header>
-        <h1> Vamos contar</h1>
+        <h1>Let's Count</h1>
     </header>
     <section>
         <div id="dados"> 
-            <p>Início: <input type="number" id="inicial"></p>
-            <p>Fim: <input type="number" id="final"></p>
-            <p>Passo: <input type="number" id="passo"></p> 
-            <p><input type="button" value="Contar" onclick=botao()></p>
+            <p>Start: <input type="number" id="start"></p>
+            <p>End: <input type="number" id="end"></p>
+            <p>Step: <input type="number" id="step"></p> 
+            <p><input type="button" value="Count" onclick=button()></p>
         </div>
-        <div id="res">
-            <p>Preparando a contagem...</p>
+        <div id="ans">
+            <p>Preparing the count..</p>
            
-            <p id="contador"></p>
+            <p id="accountant"></p>
         </div>
     </section>
     <footer>
