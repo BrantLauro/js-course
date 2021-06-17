@@ -30,7 +30,7 @@ Thanks Google for this opportunity and I want more and more.
 
 [JavaScript course for free and with english subtitles](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
-![Captura de tela de 2021-01-16 18-36-44](https://user-images.githubusercontent.com/60024796/104825056-35431880-5836-11eb-80ac-f51e7b361b77.png)
+![JavaScript_Course](https://user-images.githubusercontent.com/60024796/122445292-cbab6f80-cf77-11eb-9fec-f582f7c432a2.png)
 
 
 ### ©️ Copyrights
