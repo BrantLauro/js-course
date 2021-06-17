@@ -2,6 +2,16 @@
  A JavaScript course of Curso em Vídeo
  
  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+ 
+ 
+ ```
+      _                  ____            _       _   
+    | | __ ___   ____ _/ ___|  ___ _ __(_)_ __ | |_ 
+ _  | |/ _` \ \ / / _` \___ \ / __| '__| | '_ \| __|
+| |_| | (_| |\ V / (_| |___) | (__| |  | | |_) | |_ 
+ \___/ \__,_| \_/ \__,_|____/ \___|_|  |_| .__/ \__|
+                                         |_|        
+ ```
 
 This course is a **free** course sponsored by **_Google_** for **curso em vídeo** channel on YouTube.
 
